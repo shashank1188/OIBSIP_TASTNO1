@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HOLA </title>
+    <link rel="stylesheet" href="landing.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue"> <i> <b> <h1> HOLA<h3>The best cab service</h3></h1> </b> </i></div>
+                
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li>Account</li>
+                    <li><button class="btn">Sign up</button></li>
+                </ul>
+
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="taxi" src="cab.jpg" width="600" height="400" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best cab service around the world</h1>
+                        <p class=" text-center"> <i>HOLA</i> is providing the best cab services all around the world since 2010.It has been the fastest grown taxi service.</p>
+                        <p class="text-center"> Book your first ride and get 15% off</p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="car" src="taxi.jpg" width="600" height="400" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <p>
+                    Pick up location: *
+                    <select name="Pickup location" id="Pickup location">
+                        <option value="">--Select pickup location--</option>
+                        <option value="Visakhapatnam">Visakhapatnam</option>
+                        <option value="Vijayawada">Vijayawada</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                    </select>
+                </p>
+
+                <p>
+                    Destination: *
+                    <select name="Destination" id="Destination">
+                        <option value="">--Select Destination--</option>
+                        <option value="Visakhapatnam">Visakhapatnam</option>
+                        <option value="Vijayawada">Vijayawada</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Chennai">Chennai</option>
+                    </select>
+                </p>
+
+                <div class="buttons">
+                    <button class="btn">Book now</button>
+                </div>
+
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Cost</h1>
+
+                    <table bgcolor="black">
+                        <tr bgcolor="grey">
+                            <th>Pickup location</th>
+                            <th>Destination</th>
+                            <th>Distance</th>
+                            <th>Fare</th>
+
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Visakhapatnam</td>
+                            <td>Vijayawada</td>
+                            <td>345 KM</td>
+                            <td>Rs 4710</td>
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Visakhapatnam</td>
+                            <td>Hyderabad</td>
+                            <td>618 KM</td>
+                            <td>Rs 8435</td>
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Visakhapatnam</td>
+                            <td>Chennai</td>
+                            <td>796 KM</td>
+                            <td>Rs 10,860</td>
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Vijayawada</td>
+                            <td>Hyderabad</td>
+                            <td>274 KM</td>
+                            <td>Rs 3740</td>
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Vijayawada</td>
+                            <td>Chennai</td>
+                            <td>452 KM</td>
+                            <td>Rs 6170</td>
+                        </tr>
+                        <tr bgcolor="lightgrey">
+                            <td>Hyderabad</td>
+                            <td>Chennai</td>
+                            <td>627 KM</td>
+                            <td>Rs 8560</td>
+                        </tr>
+                     <p><b>NOTE  :</b>  All the prices are based upon the distance between pickup location and destination.The unit fare is Rs 13.65 per KM</p>
+
+                    
+                    </table>
+                </section>
+                <hr>
+            </main>
+            <footer>
+                Copyright &copy; <i>HOLA</i>.com | All rights reserved
+            </footer>
+    
+        </div>
+    </body>
+    
+    </html>
+   
